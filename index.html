@@ -2,50 +2,46 @@
 <html>
 
 <head>
-	<title>Start</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.5/css/foundation-prototype.min.css"
-		integrity="sha512-ubTUHpY2QeT9K+8DGlXAS6ErXMPfJhdtDl7gDhiHn86JUaRS4UXHvZZGYRfqqpcNsqORnp4ARWSSjyAbh+G+ag=="
-		crossorigin="anonymous" referrerpolicy="no-referrer">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/icons/icon__safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="theme-color" content="#ffffff">
+  <title>Start</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.5/css/foundation-prototype.min.css" integrity="sha512-ubTUHpY2QeT9K+8DGlXAS6ErXMPfJhdtDl7gDhiHn86JUaRS4UXHvZZGYRfqqpcNsqORnp4ARWSSjyAbh+G+ag==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/icons/icon__safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body class="vaal">
-	<div class="notifications hidden"></div>
-	<img class="background-image everywhere hidden" />
+  <div class="notifications hidden"></div>
+  <img class="background-image everywhere hidden" />
 
-	<div class="grid-container container">
-		<div class="grid-x align-middle container__inner">
-			<div class="cell">
-				<div class="grid-x grid-padding-x">
-					<div class="cell small-12">
-						<div class="grid-x grid-padding-y">
-							<div class="cell medium-6">
-								<form id="searchform" action="https://www.google.com/search" method="get">
-									<label for="search">
-										<img class="search" src="icons/icon__search.svg" alt="">
-									</label>
-									<div class="search__input--container">
-										<input id="search" placeholder="Search" type="text" name="q" autofocus
-											autocomplete="off" data-type="google" />
-										<div class="progress">
-											<div class="progress__inner"></div>
-										</div>
-									</div>
-								</form>
-							</div>
-							<!-- <div class="cell medium-6 large-auto large-offset-2 lastfm__container">
+  <div class="grid-container container">
+    <div class="grid-x align-middle container__inner">
+      <div class="cell">
+        <div class="grid-x grid-padding-x">
+          <div class="cell small-12">
+            <div class="grid-x grid-padding-y">
+              <div class="cell medium-6">
+                <form id="searchform" action="https://www.google.com/search" method="get">
+                  <label for="search">
+                    <img class="search" src="icons/icon__search.svg" alt="">
+                  </label>
+                  <div class="search__input--container">
+                    <input id="search" placeholder="Search" type="text" name="q" autofocus autocomplete="off" data-type="google" />
+                    <div class="progress">
+                      <div class="progress__inner"></div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- <div class="cell medium-6 large-auto large-offset-2 lastfm__container">
 								<div>
 									<a href="" class="lastfm__url" target="_blank" rel="noopener noreferrer">
 										<div class='lastfm__song-name'>
@@ -57,405 +53,347 @@
 									</a>
 								</div>
 							</div> -->
-						</div>
-					</div>
-					<div class="cell small-12 large-4 instapaper-links">
-						<ul class="grid-x">
-							<li class="cell">
-								<span class="container__list container__list--title">Localhost</span>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="http://localhost:3000">
-									<img src="icons/icon__code.svg">
-									<span>3000</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="http://localhost:5000">
-									<img src="icons/icon__code.svg">
-									<span>5000</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="http://localhost:5002">
-									<img src="icons/icon__code.svg">
-									<span>5002</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="http://localhost:5173">
-									<img src="icons/icon__code.svg">
-									<span>5173</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="http://localhost:5500">
-									<img src="icons/icon__code.svg">
-									<span>5500</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="http://localhost:8000">
-									<img src="icons/icon__code.svg">
-									<span>8000</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="http://localhost:8080">
-									<img src="icons/icon__code.svg">
-									<span>8080</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="http://localhost:9999">
-									<img src="icons/icon__code.svg">
-									<span>9999</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="http://localhost:8000/___graphql">
-									<img src="icons/icon__code.svg">
-									<span>graphql</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="http://localhost:9999/wp-admin">
-									<img src="icons/icon__code.svg">
-									<span>wp-admin</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="cell small-12 large-auto">
-						<ul class="grid-x">
-							<li class="cell">
-								<span class="container__list container__list--title">Reading</span>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://www.instapaper.com/u" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://instapaper.com&sz=128">
-									<span>Instapaper</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://www.reddit.com/" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://reddit.com&sz=128">
-									<span>Reddit</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://twitter.com/notifications" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://twitter.com&sz=128">
-									<span>Twitter</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://www.techmeme.com/" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://techmeme.com&sz=128">
-									<span>TechMeme</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://news.ycombinator.com/" target="_blank"
-									rel="noopener noreferrer">
-									<img
-										src="https://www.google.com/s2/favicons?domain=https://news.ycombinator.com&sz=128">
-									<span>Hacker News</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://news.google.com/news/headlines?ned=us&hl=en"
-									target="_blank" rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://news.google.com&sz=128">
-									<span>Google News</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://www.quora.com/" target="_blank"
-									rel="noopener noreferrer">
-									<img
-										src="https://qsf.cf2.quoracdn.net/-4-images.favicon-new.ico-26-07ecf7cd341b6919.ico">
-									<span>Quora</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://app.fleek.co/" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://fleek.xyz/favicon.ico">
-									<span>Fleek</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list"
-									href="https://platform.arkhamintelligence.com/explorer/address/0xe310227a350AB8D67E4B15A9EEE0f1368586b30B"
-									target="_blank" rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://etherscan.io&sz=128">
-									<span>Etherscan</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list"
-									href="https://platform.arkhamintelligence.com/explorer/address/0x0eb1DD65307400AD048a6717D7dcbB02F9a142C5"
-									target="_blank" rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://etherscan.io&sz=128">
-									<span>Etherscan2</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="cell small-12 large-auto">
-						<ul class="grid-x">
-							<li class="cell">
-								<span class="container__list container__list--title">Work</span>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://www.theodinproject.com/" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.theodinproject.com/favicon-32x32.png">
-									<span>Odin Project</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list"
-									href="https://one.eu.newrelic.com/nr1-core?account=4232486&duration=1800000&state=2caaaf69-f26d-3c21-b0e5-0cb38b80e6b5"
-									target="_blank" rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://newrelic.com&sz=128">
-									<span>New Relic</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://github.com/kriptech3" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://github.com&sz=128">
-									<span>Github</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://bitbucket.org/dashboard/repositories"
-									target="_blank" rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://bitbucket.org&sz=128">
-									<span>Bitbucket</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://mail.google.com/mail/u/0/#inbox"
-									target="_blank" rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://mail.google.com&sz=128">
-									<span>Gmail</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://drive.google.com" target="_blank"
-									rel="noopener noreferrer">
-									<img
-										src="https://www.google.com/s2/favicons?domain=https://drive.google.com&sz=128">
-									<span>Drive</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://dropbox.com" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://dropbox.com&sz=128">
-									<span>Dropbox</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://app.netlify.com/" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://netlify.com&sz=128">
-									<span>Netlify</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://pro.academind.com/courses/" target="_blank"
-									rel="noopener noreferrer">
-									<img
-										src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:60/https://www.filepicker.io/api/file/6IvcppitT6220YqR2CZb">
-									<span>Academind</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://app.ens.domains/" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://app.ens.domains/icon/AppIcon.png">
-									<span>ENS</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="cell small-12 large-auto">
-						<ul class="grid-x">
-							<li class="cell">
-								<span class="container__list container__list--title">Media</span>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://www.youtube.com/playlist?list=WL"
-									target="_blank" rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://youtube.com&sz=128">
-									<span>YouTube</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list"
-									href="https://studio.youtube.com/channel/UCj1Sd1eZwVsqLxHmqPUROqQ" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://youtube.com&sz=128">
-									<span>Studio</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://play.hbomax.com/" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://play.hbomax.com&sz=128">
-									<span>HBO Max</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://beta.music.apple.com/for-you" target="_blank"
-									rel="noopener noreferrer">
-									<img
-										src="https://www.google.com/s2/favicons?domain=https://beta.music.apple.com&sz=128">
-									<span>Apple Music</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://www.last.fm/user/desmosthenes" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://last.fm&sz=128">
-									<span>LastFM</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://overcast.fm/" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://overcast.fm&sz=128">
-									<span>Overcast</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list"
-									href="https://www.midjourney.com/app/users/383432442448576517/?sort=new"
-									target="_blank" rel="noopener noreferrer">
-									<img
-										src="https://www.google.com/s2/favicons?domain=https://www.midjourney.com&sz=128">
-									<span>MidJourney</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://chat.openai.com" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://chat.openai.com&sz=128">
-									<span>ChatGPT</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list"
-									href="https://www.notion.so/Getting-Started-9c6ef22c9a944ba99735bb3539a38985"
-									target="_blank" rel="noopener noreferrer">
-									<img src="https://www.notion.so/front-static/favicon.ico">
-									<span>Notion</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://opensea.io/blackblackwhite" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://opensea.io&sz=128">
-									<span>OpenSea</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="cell small-12 large-auto">
-						<ul class="grid-x">
-							<li class="cell">
-								<span class="container__list container__list--title">Work-2</span>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://discord.com/channels/@me" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://discord.com&sz=128">
-									<span>Discord</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://mirror.xyz/ai-revolution.eth" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://mirror.xyz/favicon.ico">
-									<span>Mirror</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://dashboard.render.com/" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://dashboard.render.com/favicon.ico">
-									<span>Render</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://cryptojobslist.com/" target="_blank"
-									rel="noopener noreferrer">
-									<img src="https://cryptojobslist.com/favicon.png">
-									<span>CryptojobsList</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list"
-									href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub"
-									target="_blank" rel="noopener noreferrer">
-									<img src="https://www.frontendmentor.io/static/favicon/apple-touch-icon.png">
-									<span>Frontendmentor</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://codesandbox.io/" target="_blank"
-									rel="noopener noreferrer">
-									<img
-										src="./icons/code-sandbox.svg">
-									<span>CodeSandbox</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://craftofexile.com" target="_blank"
-									rel="noopener noreferrer">
-									<img
-										src="https://www.google.com/s2/favicons?domain=https://craftofexile.com&sz=128">
-									<span>Craft of Exile</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://www.grinding.zone/" target="_blank"
-									rel="noopener noreferrer">
-									<img
-										src="https://www.google.com/s2/favicons?domain=https://www.grinding.zone/&sz=128">
-									<span>Grinding.Zone</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list" href="https://github.com/arbitrarily/poe-regex#readme"
-									target="_blank" rel="noopener noreferrer">
-									<img src="https://www.google.com/s2/favicons?domain=https://github.com/&sz=128">
-									<span>PoE Regex</span>
-								</a>
-							</li>
-							<li class="cell small-6 medium-4 large-12 container__list--item">
-								<a class="container__list"
-									href="https://www.pathofexile.com/account/view-profile/desmosthenes2"
-									target="_blank" rel="noopener noreferrer">
-									<img
-										src="https://www.google.com/s2/favicons?domain=https://www.pathofexile.com/&sz=128">
-									<span>My Profile</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- <div class="ip">
+            </div>
+          </div>
+          <div class="cell small-12 large-4 instapaper-links">
+            <ul class="grid-x">
+              <li class="cell">
+                <span class="container__list container__list--title">Localhost</span>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="http://localhost:3000">
+                  <img src="icons/icon__code.svg">
+                  <span>3000</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="http://localhost:5000">
+                  <img src="icons/icon__code.svg">
+                  <span>5000</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="http://localhost:5002">
+                  <img src="icons/icon__code.svg">
+                  <span>5002</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="http://localhost:5173">
+                  <img src="icons/icon__code.svg">
+                  <span>5173</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="http://localhost:5500">
+                  <img src="icons/icon__code.svg">
+                  <span>5500</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="http://localhost:8000">
+                  <img src="icons/icon__code.svg">
+                  <span>8000</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="http://localhost:8080">
+                  <img src="icons/icon__code.svg">
+                  <span>8080</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="http://localhost:9999">
+                  <img src="icons/icon__code.svg">
+                  <span>9999</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="http://localhost:8000/___graphql">
+                  <img src="icons/icon__code.svg">
+                  <span>graphql</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="http://localhost:9999/wp-admin">
+                  <img src="icons/icon__code.svg">
+                  <span>wp-admin</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="cell small-12 large-auto">
+            <ul class="grid-x">
+              <li class="cell">
+                <span class="container__list container__list--title">Reading</span>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://www.instapaper.com/u" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://instapaper.com&sz=128">
+                  <span>Instapaper</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://www.reddit.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://reddit.com&sz=128">
+                  <span>Reddit</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://twitter.com/notifications" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://twitter.com&sz=128">
+                  <span>Twitter</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://www.techmeme.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://techmeme.com&sz=128">
+                  <span>TechMeme</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://news.ycombinator.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://news.ycombinator.com&sz=128">
+                  <span>Hacker News</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://news.google.com/news/headlines?ned=us&hl=en" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://news.google.com&sz=128">
+                  <span>Google News</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://www.quora.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://qsf.cf2.quoracdn.net/-4-images.favicon-new.ico-26-07ecf7cd341b6919.ico">
+                  <span>Quora</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://app.fleek.co/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://fleek.xyz/favicon.ico">
+                  <span>Fleek</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://platform.arkhamintelligence.com/explorer/address/0xe310227a350AB8D67E4B15A9EEE0f1368586b30B" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://etherscan.io&sz=128">
+                  <span>Etherscan</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://platform.arkhamintelligence.com/explorer/address/0x0eb1DD65307400AD048a6717D7dcbB02F9a142C5" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://etherscan.io&sz=128">
+                  <span>Etherscan2</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="cell small-12 large-auto">
+            <ul class="grid-x">
+              <li class="cell">
+                <span class="container__list container__list--title">Work</span>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.theodinproject.com/favicon-32x32.png">
+                  <span>Odin Project</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://one.eu.newrelic.com/nr1-core?account=4232486&duration=1800000&state=2caaaf69-f26d-3c21-b0e5-0cb38b80e6b5" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://newrelic.com&sz=128">
+                  <span>New Relic</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://github.com/kriptech3" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://github.com&sz=128">
+                  <span>Github</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://bitbucket.org/dashboard/repositories" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://bitbucket.org&sz=128">
+                  <span>Bitbucket</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://mail.google.com&sz=128">
+                  <span>Gmail</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://drive.google.com" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://drive.google.com&sz=128">
+                  <span>Drive</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://dropbox.com" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://dropbox.com&sz=128">
+                  <span>Dropbox</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://app.netlify.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://netlify.com&sz=128">
+                  <span>Netlify</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://pro.academind.com/courses/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:60/https://www.filepicker.io/api/file/6IvcppitT6220YqR2CZb">
+                  <span>Academind</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://app.ens.domains/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://app.ens.domains/icon/AppIcon.png">
+                  <span>ENS</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="cell small-12 large-auto">
+            <ul class="grid-x">
+              <li class="cell">
+                <span class="container__list container__list--title">Media</span>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://www.youtube.com/playlist?list=WL" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://youtube.com&sz=128">
+                  <span>YouTube</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://studio.youtube.com/channel/UCj1Sd1eZwVsqLxHmqPUROqQ" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://youtube.com&sz=128">
+                  <span>Studio</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://play.hbomax.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://play.hbomax.com&sz=128">
+                  <span>HBO Max</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://beta.music.apple.com/for-you" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://beta.music.apple.com&sz=128">
+                  <span>Apple Music</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://www.last.fm/user/desmosthenes" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://last.fm&sz=128">
+                  <span>LastFM</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://overcast.fm/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://overcast.fm&sz=128">
+                  <span>Overcast</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://www.midjourney.com/app/users/383432442448576517/?sort=new" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://www.midjourney.com&sz=128">
+                  <span>MidJourney</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://chat.openai.com" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://chat.openai.com&sz=128">
+                  <span>ChatGPT</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://www.notion.so/Getting-Started-9c6ef22c9a944ba99735bb3539a38985" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.notion.so/front-static/favicon.ico">
+                  <span>Notion</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://opensea.io/blackblackwhite" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://opensea.io&sz=128">
+                  <span>OpenSea</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="cell small-12 large-auto">
+            <ul class="grid-x">
+              <li class="cell">
+                <span class="container__list container__list--title">Work-2</span>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://discord.com/channels/@me" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://discord.com&sz=128">
+                  <span>Discord</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://mirror.xyz/ai-revolution.eth" target="_blank" rel="noopener noreferrer">
+                  <img src="https://mirror.xyz/favicon.ico">
+                  <span>Mirror</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://dashboard.render.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://dashboard.render.com/favicon.ico">
+                  <span>Render</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://cryptojobslist.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://cryptojobslist.com/favicon.png">
+                  <span>CryptojobsList</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.frontendmentor.io/static/favicon/apple-touch-icon.png">
+                  <span>Frontendmentor</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://codesandbox.io/" target="_blank" rel="noopener noreferrer">
+                  <img src="./icons/code-sandbox.svg">
+                  <span>CodeSandbox</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://admin.moralis.io/projects" target="_blank" rel="noopener noreferrer">
+                  <img src="https://admin.moralis.io/assets/apple-icon-144x144-HXlVDAWq.png">
+                  <span>Moralis</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://vercel.com/dashboard" target="_blank" rel="noopener noreferrer">
+                  <img src="https://assets.vercel.com/image/upload/front/favicon/vercel/favicon.ico">
+                  <span>Vercel</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://github.com/arbitrarily/poe-regex#readme" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://github.com/&sz=128">
+                  <span>PoE Regex</span>
+                </a>
+              </li>
+              <li class="cell small-6 medium-4 large-12 container__list--item">
+                <a class="container__list" href="https://www.pathofexile.com/account/view-profile/desmosthenes2" target="_blank" rel="noopener noreferrer">
+                  <img src="https://www.google.com/s2/favicons?domain=https://www.pathofexile.com/&sz=128">
+                  <span>My Profile</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="ip">
 			<div>
 				<img src="icons/icon__signal.svg" alt="">
 				<span class="ip-replace"></span>
@@ -483,11 +421,10 @@
 				<span class="wallet-replace"></span>
 			</div>
 		</div> -->
-	</div>
-	<script src="https://code.jquery.com/jquery-3.6.3.min.js"
-		integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
-	<script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
